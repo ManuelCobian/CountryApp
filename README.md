@@ -1,36 +1,3 @@
-CountriesApp
-
-Aplicación Android desarrollada en Kotlin que consume información de países utilizando la API pública de REST Countries.
-
-Descripción
-
-CountriesApp permite consultar información detallada de países como:
-
-Nombre
-Capital
-Región
-Población
-Bandera
-
-La aplicación está diseñada con buenas prácticas modernas de desarrollo Android, priorizando escalabilidad, mantenimiento y separación de responsabilidades.
-
-API utilizada
-
-La app consume datos desde la API pública:
-
- https://restcountries.com/v3.1/
-
-Endpoint principal utilizado:
-https://restcountries.com/v3.1/all
-Consideraciones:
-No requiere autenticación
-Respuestas en formato JSON
-Se maneja parsing con modelos tipados en Kotlin
-Se implementa manejo de errores para:
-Timeouts
-Errores de red
-Respuestas vacías o mal formadas
-Arquitectura
 
 Se implementó arquitectura:
 
@@ -50,11 +17,13 @@ Modularización
 
 La aplicación está dividida en módulos con responsabilidades específicas:
 
-room
+room :
 Implementación de Room
-core
+
+core :
 Consumo de API (Retrofit)
-App
+
+App :
 UI + ViewModels
 Beneficios:
 Escalabilidad
@@ -62,12 +31,7 @@ Bajo acoplamiento
 Reutilización de código
 Fácil mantenimiento
 
-Persistencia de datos
-
-Se utilizó:
-
-Room Database
-
+Persistencia de datos Room Database
 ¿Por qué Room?
 
 Abstracción sobre SQLite
