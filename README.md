@@ -65,8 +65,8 @@ Puedes instalarlo desde:
 
 Amazon Corretto (recomendado)
 Android
-Min SDK: (define según tu proyecto)
-Target SDK: (define según tu proyecto)
+Min SDK: 17
+Target SDK: 17
 
 Tecnologías utilizadas
 Kotlin
