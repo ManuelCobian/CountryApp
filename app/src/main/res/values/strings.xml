@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">countryApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_empty_country">No se encontraron paises</string>
+    <string name="country_list">Listado de Paises\n</string>
+    <string name="country_favorites">Listado de Favoritos\n</string>
+    <string name="closed_icon_description">Cerrar detalle\n</string>
+
+    <string name="no_name">Sin nombre</string>
+    <string name="no_official_name">Sin nombre oficial</string>
+    <string name="no_capital">Sin capital</string>
+    <string name="no_region">Sin región</string>
+    <string name="no_subregion">Sin subregión</string>
+    <string name="no_data">Sin dato</string>
+    <string name="no_languages">Sin idiomas</string>
+    <string name="no_timezones">Sin zonas horarias</string>
+    <string name="no_currencies">Sin monedas</string>
+    <string name="favoritos_success">Pais Guardado Correctamente</string>
+    <string name="error_favorites">Error al guardar en favoritos</string>
+    <string name="succes_delete_favorite">Se borro de favoritos</string>
+    <string name="error_delete_favorito">no se borro de favoritos</string>
+</resources>

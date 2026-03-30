@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProfitGuard</string>
+    <string name="txt_menu_home">Home</string>
+    <string name="txt_menu_favorites">Favoritos</string>
+    <string name="unknown_host_exception_error">Exito</string>
+    <string name="unknown_exception_error">Error intente mas tarde</string>
+</resources>

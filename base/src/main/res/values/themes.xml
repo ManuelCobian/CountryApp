@@ -1,0 +1,121 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProfitGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondaryFixed</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="Base.Theme.ProfitGuard.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ProfitGuard" parent="Base.Theme.ProfitGuard" />
+
+    <style name="reportsCardStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">140dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="reportContentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/font_h1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextH3.Black.Bold.Poppins" parent="TextH3.Black">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.white">
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">@dimen/font_h1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.contentText">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">@dimen/font_h4</item>
+    </style>
+
+
+    <style name="viewParent.alert">
+
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">@dimen/font_caption1</item>
+    </style>
+
+
+
+    <style name="Theme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/primary_color</item>
+        <item name="actionMenuTextColor">@color/contentTextColor</item>
+        <item name="android:textColorSecondary">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/font_body</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Theme.Toolbar.text" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorSecondary">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/font_h4</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ViewContainer">
+        <item name="android:background">@color/gray_principal</item>
+    </style>
+
+    <style name="Theme.Transparent.Activity" parent="Base.Theme.ProfitGuard">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#b31f2532</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowEnterAnimation">@android:style/Animation</item>
+        <item name="android:windowExitAnimation">@android:style/Animation</item>
+        <item name="android:colorBackground" tools:ignore="PrivateResource">@color/background_material_light</item>
+    </style>
+
+
+    <style name="EditTextSearch">
+        <item name="android:layout_marginLeft">@dimen/spacing_large</item>
+        <item name="android:layout_marginRight">@dimen/spacing_large</item>
+        <item name="android:background">@drawable/view_border_gray</item>
+        <item name="android:drawableStart">@drawable/ic_search</item>
+        <item name="android:drawablePadding">@dimen/spacing_small</item>
+        <item name="android:inputType">text</item>
+        <item name="android:padding">@dimen/spacing_standard</item>
+    </style>
+
+        <style name="switchTheme.Purple" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+            <item name="colorControlActivated">@color/purple_500</item>
+            <item name="android:textSize">@dimen/font_body</item>
+        </style>
+
+</resources>
