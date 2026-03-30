@@ -40,7 +40,7 @@ Se implementó arquitectura:
 
 Separación clara de responsabilidades
 Facilita testing
-Compatible con LiveData / Flow
+Compatible con LiveData
 Mejor manejo del ciclo de vida
 Capas:
 View (UI) → Activities / Fragments
