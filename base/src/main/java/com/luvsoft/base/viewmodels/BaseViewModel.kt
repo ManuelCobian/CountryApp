@@ -17,8 +17,6 @@ open class BaseViewModel : ViewModel() {
 
    protected val closeView = MutableLiveData<FinishActivityModel>()
 
-    protected val customToast = MutableLiveData<CustomToastEvent>()
-
     protected val loader = MutableLiveData<Boolean>()
 
     protected val startAction = ConsumerLiveData<StartActionModel>()

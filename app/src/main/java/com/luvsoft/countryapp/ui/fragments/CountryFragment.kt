@@ -103,13 +103,15 @@ class CountryFragment : BaseFragment(), CountryAdapter.CallbackClick {
         }
         viewModel.status.observe(viewLifecycleOwner) {
             when (it) {
-                is ApiResponseStatus.Loading -> binding.swipeRefreshLayout.visibility = View.VISIBLE
+                is ApiResponseStatus.Loading -> {
+                    binding.swipeRefreshLayout.isRefreshing = true
+                }
                 is ApiResponseStatus.Error -> {
-                    binding.swipeRefreshLayout.visibility = View.GONE
+                    binding.swipeRefreshLayout.isRefreshing = false
                 }
 
                 is ApiResponseStatus.Success -> {
-                    binding.swipeRefreshLayout.visibility = View.VISIBLE
+                    binding.swipeRefreshLayout.isRefreshing = false
                 }
             }
         }

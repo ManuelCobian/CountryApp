@@ -2,7 +2,7 @@ package com.luvsoft.rooom.network.api.imp
 
 import com.luvsoft.rooom.network.api.CountryApi
 import com.luvsoft.rooom.network.entities.CountryFavoriteEntity
-import com.luvsoft.rooom.services.CountryDoo
+import com.luvsoft.rooom.api.CountryDoo
 import javax.inject.Inject
 import javax.inject.Singleton
 

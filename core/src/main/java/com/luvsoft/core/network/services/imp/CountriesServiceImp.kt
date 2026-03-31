@@ -16,6 +16,6 @@ class CountriesServiceImp @Inject constructor(private val retrofit: Retrofit) : 
         fullText: Boolean
     ): List<CountryResponse> {
         val service = retrofit.create(CountriesService::class.java)
-        return service.getCountryByName(name = name)
+        return service.getCountryByName(name = name, fullText = fullText)
     }
 }

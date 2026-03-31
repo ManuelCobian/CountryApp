@@ -3,7 +3,7 @@ package com.luvsoft.rooom
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.luvsoft.rooom.network.entities.CountryFavoriteEntity
-import com.luvsoft.rooom.services.CountryDoo
+import com.luvsoft.rooom.api.CountryDoo
 
 @Database(
     entities = [

@@ -5,7 +5,7 @@ import androidx.room.Room
 import com.luvsoft.rooom.CountryDatabase
 import com.luvsoft.rooom.network.api.CountryApi
 import com.luvsoft.rooom.network.api.imp.CountryImp
-import com.luvsoft.rooom.services.CountryDoo
+import com.luvsoft.rooom.api.CountryDoo
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

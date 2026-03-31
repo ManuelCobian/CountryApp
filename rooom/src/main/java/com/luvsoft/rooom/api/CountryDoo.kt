@@ -1,4 +1,4 @@
-package com.luvsoft.rooom.services
+package com.luvsoft.rooom.api
 
 import androidx.room.Dao
 import androidx.room.Delete
